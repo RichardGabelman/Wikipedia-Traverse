@@ -6,7 +6,7 @@ utilizing only links found on the current page.
 Requires spacy, https://spacy.io/usage#installation
 Utilizes the large spacy pipeline package which requires installation
 
-Requires the requests library and the BeautifulSoup4
+Requires the requests library and the BeautifulSoup4 library
 
 Usage:
 
