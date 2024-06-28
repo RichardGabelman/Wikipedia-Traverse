@@ -3,6 +3,11 @@ This is a project I made for the Algorithms class I took in college.
 This program attempts to find a path between two Wikipedia articles
 utilizing only links found on the current page. 
 
+Requires spacy, https://spacy.io/usage#installation
+Utilizes the large spacy pipeline package which requires installation
+
+Requires the requests library and the BeautifulSoup4
+
 Usage:
 
 startURL: https://en.wikipedia.org/wiki/XXXXX
