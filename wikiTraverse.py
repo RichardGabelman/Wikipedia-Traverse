@@ -66,12 +66,12 @@ def traverseWiki(startURL, targetURL, limit=10):
         semanticSimilarity = similarity
         currentURL = linkURL
     path.append(currentURL)
-    sleep(10)
+    sleep(1)
 
 
   print("Failure! Traversal limit exceeded!")
   print(path)
   return 0
 
-traverseWiki("https://en.wikipedia.org/wiki/Chocolate", "https://en.wikipedia.org/wiki/Lyndon_B._Johnson", 10)
-  
+# Example of use:
+# traverseWiki("https://en.wikipedia.org/wiki/Big_Bang", "https://en.wikipedia.org/wiki/Taylor_Swift", 10)
